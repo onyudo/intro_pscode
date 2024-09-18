@@ -2,3 +2,37 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start the Application
+	Welcome the customer
+		"Welcome to the Warehouse! Where do want to go in the store today?"
+				
+			Customer inputs TARGET location (targetX, targetY),
+			Application defines where the Customer is located right now (CURRENT location, currentX, currentY),
+			Application defines the number of Steps at 0 at the CURRENT position
+			Application determines the amount of Steps and the Path required to get from CURRENT to TARGET
+
+Application displays Customer the CURRENT position and displays a Path to get to the TARGET position
+
+	While the CURRENT position is not the TARGET position,
+			Determine customer's Movements and Direction
+				
+					If the direction is North 
+						then display the customer moving up on the Path (decrease y by 1),
+					Else if the direction is South
+						then display the customer moving down on the Path (increase y by 1),
+					Else if the direction is East
+						then display the customer moving to the right on the Path (increase x by 1),
+					Else if the direction is West
+						then display the customer moving to the left on the Path (decrease x by 1)
+
+					Increase the number of steps taken with each Movement and Direction by 1
+				
+	Display the CURRENT position as the Customer moves and changes directions
+
+	Check to see if the Customer has Arrived at the TARGET location
+			
+			If CURRENT position equals the TARGET location
+				then "Congratulations! You have reached your destination! Is there anywhere else you'd like to go to in the store today Y/N?"
+					(if Y then return to Start the Application, else "Thank you for using the App!")
+			Else, return to determining Customer's Movements and Direction
+
