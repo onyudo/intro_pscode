@@ -2,3 +2,35 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start the Game
+	Explain the rules of gameplay
+		"The computer chooses a random number between 1 and 10, and the player has 3 chances to guess."
+		"Would you like to begin Y/N?"
+			(If Y then Begin Game,
+			Else, "Thank you for playing, until next time!" and the game is over)
+
+Begin Game
+	Program selects a random number in the range of 1 to 10
+
+        Player inputs first guess of the randomly selected number,
+            If player is correct then 
+                "Congratulations! You Win! Would you like to play again Y/N?"
+                        (If Y then the game starts again at the Begin Game phase,
+                        Else the game is over)
+            Else "That is incorrect, please try again"
+
+        Player inputs seconds guess of the randomly selected number,
+            If player is correct then 
+                "Congratulations! You Win! Would you like to play again Y/N?"
+                        (If Y then the game starts again at the Begin Game phase,
+                        Else the game is over)
+            Else "That is incorrect, please try again"
+
+        Player inputs third guess of the randomly selected number,
+            If player is correct then 
+                "Congratulations! You Win! Would you like to play again Y/N?"
+                        (If Y then the game starts again at the Begin Game phase,
+                        Else the game is over)
+            Else "That is incorrect, The correct number was "X". Would you like to play again Y/N?"
+                        (If Y then the game starts again at the Begin Game phase,
+                        Else the game is over)
