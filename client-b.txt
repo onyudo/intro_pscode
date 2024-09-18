@@ -4,7 +4,7 @@
 
 Start the Application
 	Welcome the customer
-		"Welcome to the Warehouse! Where do want to go in the store today?"
+		"Welcome to the Warehouse! Where do you want to go in the store today?"
 				
 			Customer inputs TARGET location (targetX, targetY),
 			Application defines where the Customer is located right now (CURRENT location, currentX, currentY),
