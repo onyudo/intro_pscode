@@ -8,7 +8,6 @@ Start the Application
 				
 			Customer inputs TARGET location (targetX, targetY),
 			Application defines where the Customer is located right now (CURRENT location, currentX, currentY),
-			Application defines the number of Steps at 0 at the CURRENT position
 			Application determines the amount of Steps and the Path required to get from CURRENT to TARGET
 
 Application displays Customer the CURRENT position and displays a Path to get to the TARGET position
@@ -25,7 +24,8 @@ Application displays Customer the CURRENT position and displays a Path to get to
 					Else if the direction is West
 						then display the customer moving to the left on the Path (decrease x by 1)
 
-					Increase the number of steps taken with each Movement and Direction by 1
+					Application defines the number of Steps at 0 at the CURRENT position
+					For each Step increase the number of steps taken with each Movement and Direction by 1
 				
 	Display the CURRENT position as the Customer moves and changes directions
 
