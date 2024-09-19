@@ -2,3 +2,22 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+Start the Package Counting Program
+
+	Define a Case that can hold Packages
+    Define the number of Packages
+	Define that each Package contains 2 Products
+	Define the maximum number of Products in a Case as 50
+
+    While Packages are greater than 0
+
+        Count Packages from 2 to 50, in steps of 2
+
+            While the Count is less than 50
+                    Display the current count
+                    Add 2 to the current count for each step/scan
+            When the Count equals 50, restart Count
+
+    When Packages are equal to 0, end Count
+
+End Package Counting Program

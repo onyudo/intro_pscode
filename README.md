@@ -11,11 +11,11 @@ Write **three (3)** psuedocode programs, and get them synced to GitHub so the te
 - [x] Review the following **3** client tasks. (Task A, Task B, Task C)
 - [x] Fork this repository (**https://github.com/CodeYouOrg/intro_pscode**) to your own GitHub account.
 - [x] Clone the repository down to your local projects folder.
-- [ ] Complete each of the **3** tasks by updating the correct file that matches the task and client. (*example: **Task A** should be written in the the file **client-a.txt***)
-- [ ] Update and sync your local repository to GitHub.
-- [ ] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
-- [ ] Turn in the link to your repository of the assignment in [Google Classroom](https://classroom.google.com/).
-- [ ] Practice more...
+- [x] Complete each of the **3** tasks by updating the correct file that matches the task and client. (*example: **Task A** should be written in the the file **client-a.txt***)
+- [x] Update and sync your local repository to GitHub.
+- [x] Copy the link to your repository. (*example: **https://github.com/your-github-username/intro_pscode***)
+- [x] Turn in the link to your repository of the assignment in [Google Classroom](https://classroom.google.com/).
+- [x] Practice more...
 
 ## Client Tasks
 
