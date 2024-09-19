@@ -4,10 +4,6 @@
 
 Start the Package Counting Program
 
-	Define a Case that can hold Packages
-    Define the number of Packages
-	Define that each Package contains 2 Products
-	Define the maximum number of Products in a Case as 50
 
     While Packages are greater than 0
 
